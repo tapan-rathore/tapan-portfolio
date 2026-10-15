@@ -41,7 +41,7 @@ npm run build
 
 Tapan Rathore
 
-- GitHub: https://github.com/YOUR_USERNAME
+- GitHub: https://github.com/tapan-rathore
 - Portfolio: Add your deployed portfolio URL here
 
 ---
