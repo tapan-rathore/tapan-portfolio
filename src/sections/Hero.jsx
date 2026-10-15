@@ -1,4 +1,4 @@
-import { ArrowDownRight, ArrowUpRight } from "lucide-react"
+import { ArrowDownRight, ArrowUpRight, Download } from "lucide-react"
 
 const Hero = () => {
     return (
@@ -51,6 +51,16 @@ const Hero = () => {
                         GitHub
                         <ArrowUpRight size={15} />
                     </a>
+
+                    <a
+                        href="/resume.pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/50 px-6 py-3 text-sm font-medium transition-colors hover:border-accent hover:text-accent"
+                    >
+                        <Download size={17} />
+                        Download Resume
+                    </a>
                 </div>
 
                 <p className="mt-8 text-xs text-mute">
@@ -86,7 +96,7 @@ const Hero = () => {
                             <span>,</span>
                         </div>
                         <div className="pl-4">
-                            <span>stack</span>:{" [" }
+                            <span>stack</span>:{" ["}
                             <span className="text-emerald-700">"React 19"</span>,
                         </div>
                         <div className="pl-16">
